@@ -1,0 +1,12 @@
+{
+  "name": "user-claude-md",
+  "version": "1.0.0",
+  "description": "Manage the user-level ~/.claude/CLAUDE.md and ~/.claude/context/ split — audit, chunk, list, and edit global Claude Code context.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/User-Claude-MD-Plugin",
+  "license": "MIT",
+  "keywords": ["claude-md", "context-management", "user-config", "meta"]
+}
