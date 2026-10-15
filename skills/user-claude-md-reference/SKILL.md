@@ -44,10 +44,10 @@ Any time a file is added, removed, or meaningfully re-scoped in `~/.claude/conte
 
 ## Commands provided by this plugin
 
-- `/user-claude-md:chunk-user-claude` — prune CLAUDE.md, push overflow into `context/`.
-- `/user-claude-md:user-claude-health` — audit the layout for bloat, drift, and duplication.
-- `/user-claude-md:list-user-context` — list context files with summaries.
-- `/user-claude-md:edit-user-context <file> <instruction>` — targeted edit, with pointer-table sync.
+- `/user-context-file:chunk-user-claude` — prune CLAUDE.md, push overflow into `context/`.
+- `/user-context-file:user-claude-health` — audit the layout for bloat, drift, and duplication.
+- `/user-context-file:list-user-context` — list context files with summaries.
+- `/user-context-file:edit-user-context <file> <instruction>` — targeted edit, with pointer-table sync.
 
 ## Safety
 

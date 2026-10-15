@@ -27,7 +27,7 @@ That keeps the always-on context small (token-efficient) while preserving deep r
 ## Installation
 
 ```bash
-claude plugins install user-claude-md@danielrosehill
+claude plugins install user-context-file@danielrosehill
 ```
 
 ## Lineage

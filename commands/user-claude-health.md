@@ -34,4 +34,4 @@ Recommendations:
 - <specific actionable item>
 ```
 
-Do not modify anything — this is read-only. If action is warranted, suggest running `/user-claude-md:chunk-user-claude` or point at the specific file to edit.
+Do not modify anything — this is read-only. If action is warranted, suggest running `/user-context-file:chunk-user-claude` or point at the specific file to edit.
