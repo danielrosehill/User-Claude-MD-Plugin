@@ -1,6 +1,6 @@
 {
   "name": "user-context-file",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Manage the user-level ~/.claude/CLAUDE.md and ~/.claude/context/ split — audit, chunk, list, and edit global Claude Code context.",
   "author": {
     "name": "Daniel Rosehill",

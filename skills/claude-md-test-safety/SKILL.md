@@ -15,10 +15,10 @@ This skill's job is documentation and handholding. It must not call the activate
 
 ### 1. Locate the plugin scripts
 
-The plugin source lives at:
+`<plugin-root>` below is this plugin's install directory. Resolve it to a real absolute path before printing any command, because the user runs these in a plain terminal where `${CLAUDE_PLUGIN_ROOT}` is not set. Find it with:
 
 ```
-~/repos/github/my-repos/Claude-MD-Tester
+find ~/.claude/plugins ~/repos -type f -path '*tools/claude-md-tester/bin/restore.sh' 2>/dev/null | head -1
 ```
 
 Scripts:
@@ -28,7 +28,7 @@ Scripts:
 
 ### 2. List available configs
 
-Configs live under `configs/`. Read that directory and list the available config names (filename without `.md`) for the user.
+Configs live under `tools/claude-md-tester/configs/`. Read that directory and list the available config names (filename without `.md`) for the user.
 
 ### 3. Print the runbook
 
