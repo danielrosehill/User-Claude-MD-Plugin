@@ -37,3 +37,7 @@ Adapts the chunking/health patterns from [Claude-Meta-Tools-Plugin](https://gith
 ## License
 
 MIT
+
+## Folded in
+
+- `context-file-tester` (repo `Claude-MD-Tester`), retired 2026-11-05: skill claude-md-test-safety (was safety-check). Scripts are in `tools/claude-md-tester/bin/`, off PATH on purpose: their names are generic, and restore.sh must run from a terminal without the harness.
